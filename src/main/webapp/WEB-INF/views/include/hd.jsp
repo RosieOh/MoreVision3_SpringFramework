@@ -55,6 +55,7 @@
 
                                 <div class="navbar-dropdown">
                                     <a class="navbar-item" href="${path1}/edumag/list.do" style="font-size: 30px;">스페셜칼럼</a>
+                                    <a class="navbar-item" href="${path1}/news/list.do" style="font-size: 30px;">교육 뉴스</a>      <!-- 실시간 뉴스가 갱신되는 기반 -->
                                 </div>
                             </div>
 

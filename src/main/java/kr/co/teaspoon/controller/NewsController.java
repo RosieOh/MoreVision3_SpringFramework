@@ -23,7 +23,9 @@ public class NewsController {
     public static HashMap<String, String> map;
 
     @RequestMapping(value = "list.do", method = RequestMethod.GET)
+
     public String startCrawl(Model model) throws IOException {
+        logger.info("뉴스 페이지 진입");
         int page = 1;
         ArrayList<String> al1 = new ArrayList<>();
         ArrayList<String> al2 = new ArrayList<>();
